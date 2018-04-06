@@ -6,7 +6,7 @@ RFID with PIN Locker (base with PowerShell Server and CSV-File)
 - Auth_Server_v3.ps1: PowerShell-"Server", Data from external CSV (RFID-UID, PIN-Code, Access)
 
 # Arduino with RFID-Reader, LCD 2x16 and Keypad
-![alt text](https://github.com/marceleisenhut/Arduino-RFID-Keypad/blob/master/20180405_120625.jpg)
+![alt text](https://github.com/marceleisenhut/Arduino-RFID-Keypad/blob/master/arduino.jpg)
 
 
 
