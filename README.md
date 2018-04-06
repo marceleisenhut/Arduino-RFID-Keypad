@@ -1,3 +1,5 @@
+# ZBW-Project-Week (IoT), 06.04.2018
+
 # Arduino-RFID-Keypad
 RFID with PIN Locker (base with PowerShell Server and CSV-File)
 
@@ -18,3 +20,8 @@ running on the PC with Serial connection to the arduino (gives true or false for
 # CSV File
 Includes the RFID UIDs, PIN-Codes and the Access (true or false)
 ![alt text](https://github.com/marceleisenhut/Arduino-RFID-Keypad/blob/master/CSV.jpg)
+
+
+# Debugging with 2nd LCD
+for debugging some messages, we installed a 2nd lcd monitor
+![alt text](https://github.com/marceleisenhut/Arduino-RFID-Keypad/blob/master/Arduino_with_Debug_Monitor.jpg)
