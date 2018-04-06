@@ -1,15 +1,3 @@
- * ------------------------------------------------------------
- * Pin layout should be as follows:
- * Signal     Pin              Pin               Pin
- *            Arduino Uno      Arduino Mega      MFRC522 board
- * ------------------------------------------------------------
- * Reset      9                5                 RST
- * SPI SS     10               53                SDA
- * SPI MOSI   11               51                MOSI
- * SPI MISO   12               50                MISO
- * SPI SCK    13               52                SCK
- * ------------------------------------------------------------
-
 #include <SPI.h>
 #include <MFRC522.h>
 #define SS_PIN 10
@@ -80,7 +68,7 @@ void setup() {
   debug.setBacklight(255);
   lcd.setCursor(0,1);
   lcd.print("Chip vorweisen:");
-  
+  tone(PiezoPIN, 1000, 250);
   
 }
 
@@ -121,6 +109,7 @@ void checkCard() {
 
     // Karte OK
     lcdKarteOK();
+    tone(PiezoPIN, 1000, 250);
   
     // Eingabe von PIN empfangen (Abschluss mit #) 
     aPIN = getPIN();
@@ -288,10 +277,9 @@ void SystemDefault() {
   digitalWrite(LEDRed, LOW);
   digitalWrite(LEDGreen, LOW);
   debug.clear();
-  debug.print("Debugger");
-  
-  
+  debug.print("Debugger");  
   CardNumber = "";
+  tone(PiezoPIN, 1000, 250);
 }
 
 void lcdPINEingabe() {
@@ -355,3 +343,4 @@ void printDec(byte *buffer, byte bufferSize) {
   
   // debug.print("Bitte Karte vorweisen...");
 }
+
