@@ -15,8 +15,8 @@ RFID with PIN Locker (base with PowerShell Server and CSV-File)
 # PowerShell-Background (with CSV-Data)
 running on the PC with Serial connection to the arduino (gives true or false for the permission from the cards and pins)
 
-to start the PowerShell-Console, you have to give some Parameters:
-.\Auth_Server_v3.ps1 -COMPORT COM5 -Database .\aut_database.csv
+to start the PowerShell-Console, you have to give some Parameters: <br>
+<strong>.\Auth_Server_v3.ps1 -COMPORT COM5 -Database .\aut_database.csv</strong>
 
 ![alt text](https://github.com/marceleisenhut/Arduino-RFID-Keypad/blob/master/PowerShell_Console.jpg)
 
