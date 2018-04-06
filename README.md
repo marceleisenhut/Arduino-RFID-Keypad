@@ -24,4 +24,4 @@ Includes the RFID UIDs, PIN-Codes and the Access (true or false)
 
 # Debugging with 2nd LCD
 for debugging some messages, we installed a 2nd lcd monitor
-![alt text](https://github.com/marceleisenhut/Arduino-RFID-Keypad/blob/master/Arduino_with_Debug_Monitor.jpg)
+![alt text](https://github.com/marceleisenhut/Arduino-RFID-Keypad/blob/master/Arduino_with_Debugging_Monitor.jpg)
