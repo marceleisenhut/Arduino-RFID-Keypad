@@ -31,9 +31,9 @@ for debugging some messages, we installed a 2nd lcd monitor
 ![alt text](https://github.com/marceleisenhut/Arduino-RFID-Keypad/blob/master/Arduino_with_Debugging_Monitor.jpg)
 
 
-# Demo: Zugriff erlaubt
+# Demo: Access allowed
 ![alt text](https://github.com/marceleisenhut/Arduino-RFID-Keypad/blob/master/Zugriff_erlaubt.gif)
 
 
-# Demo: Zugriff verweigert
+# Demo: Access not allowed
 ![alt text](https://github.com/marceleisenhut/Arduino-RFID-Keypad/blob/master/Zugriff_verweigert.gif)
